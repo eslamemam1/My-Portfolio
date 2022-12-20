@@ -1,8 +1,8 @@
 *{
-    color: rgb(209 213 219) ;
+    color: rgb(221, 225, 230) ;
 }
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 7px;
 }
 
 /* Handle */
@@ -12,4 +12,7 @@
 }
 .gradient{
     background: linear-gradient(to right bottom, rgb(23, 23, 27) 0%, rgb(40, 40, 47) 100%) !important;
+}
+.OrangeHover:hover{
+    color: #ff6f00;
 }
