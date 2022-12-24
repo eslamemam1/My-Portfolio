@@ -13,11 +13,11 @@ function MainInfo() {
         <div className=' w-[80%] h-[85%] m-auto'>
           <div className='w-full h-full flex flex-col justify-center items-center pt-5'>
             <h2 className=' text-4xl'>Eslam Emam</h2>
-            <p className=' text-2xl pt-5 pb-5'>Front End Developer</p>
+            <p className=' text-2xl pt-5 pb-5'>Frontend Developer</p>
             <div className='text-2xl'>
-              <a href="https://www.linkedin.com/in/eslam-emam-12695815b" target="_blank" rel="noreferrer"><i class="fab fa-linkedin hover:text-orange-600"></i></a>
-              <a href='https://github.com/eslamemam1' target="_blank" rel="noreferrer"><i class="fab fa-github pr-3 pl-3 hover:text-orange-600"></i></a>
-              <a href='https://www.facebook.com/Eslam.Emam.Abdelmonam' target="_blank" rel="noreferrer"><i class="fas fa-envelope hover:text-orange-600"></i></a>
+              <a href="https://www.linkedin.com/in/eslam-emam-12695815b" target="_blank" rel="noreferrer"><i className="fab fa-linkedin OrangeHover"></i></a>
+              <a href='https://github.com/eslamemam1' target="_blank" rel="noreferrer"><i className="fab fa-github pr-3 pl-3 OrangeHover"></i></a>
+              <a href='https://www.facebook.com/Eslam.Emam.Abdelmonam' target="_blank" rel="noreferrer"><i className="fas fa-envelope OrangeHover"></i></a>
             </div> {/* icon */}
           </div>
         </div> {/* secction info */}

@@ -1,5 +1,6 @@
 *{
-    color: rgb(221, 225, 230) ;
+    color: rgb(216, 216, 216) ;
+    scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
     width: 7px;
@@ -10,9 +11,53 @@
     background: rgb(209 213 219);
     border-radius: 5px;
 }
+
+.noScroll::-webkit-scrollbar {
+    width: 1px;
+    overflow: overlay;
+}
+
+.noScroll::-webkit-scrollbar-thumb {
+    background: rgb(209 213 219);
+    border-radius: 1px;
+}
+
 .gradient{
     background: linear-gradient(to right bottom, rgb(23, 23, 27) 0%, rgb(40, 40, 47) 100%) !important;
 }
 .OrangeHover:hover{
-    color: #ff6f00;
+    color: #ff9800;
+}
+.imgContener:hover .hoverScall{
+    scale: 1.1 1;
+}
+.searchIcon{
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+}
+.imgContener:hover .searchIcon {
+    visibility: visible;
+    opacity: 1;
+    transition: 2s;
+}
+.trans{
+    transition: 2s;
+}
+.imgContener:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+}
+
+.imgContener:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 2s;
 }

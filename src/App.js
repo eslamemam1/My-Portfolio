@@ -10,14 +10,14 @@ function App() {
             <div className=' w-[7%] h-[70%] mr-[1%] border-none rounded bg-[#282830]'>
               <SideBar />
             </div>
-            <div className=' w-[40%] h-[110%] mt-[-25px] border-none rounded-md bg-[#282830]'>
+            <div className=' w-[35%] h-[110%] mt-[-25px] border-none rounded-md bg-[#282830]'>
               <MainInfo/>
             </div>
-            <div className=' w-[52%] h-full border-none rounded-tr rounded-br bg-[#34343f] overflow-auto'>
+            <div className=' w-[57%] h-full border-none rounded-tr rounded-br bg-[#34343f] overflow-auto'>
               <AllInfo/>
             </div>
       </div> {/* Main Page */}
-      <div className=' w-[90%] h-[90%] mt-[-25px] border-none rounded-md bg-[#31313a] lg:hidden block'>
+      <div className=' w-full h-screen mt-[-25px] border-none rounded-md bg-[#31313a] lg:hidden block noScroll'>
         <ResponsiveWindow/>
       </div>{/* ResponsiveWindow */}
     </div>
