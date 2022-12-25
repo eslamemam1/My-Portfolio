@@ -31,6 +31,9 @@
 .imgContener:hover .hoverScall{
     scale: 1.1 1;
 }
+.scaleHover:hover{
+    scale: 1.2 1.2;
+}
 .searchIcon{
     visibility: hidden;
     opacity: 0;
@@ -42,7 +45,7 @@
     transition: 2s;
 }
 .trans{
-    transition: 2s;
+    transition: 1s;
 }
 .imgContener:after {
     content: "";

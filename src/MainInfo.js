@@ -1,11 +1,12 @@
 import React from 'react'
 import myimage from "./MyPic.jpg"
 import bg from "./bg.jpg"
+import EslamResume from "./EslamEmamResume.pdf"
 function MainInfo() {
   return (
     <div className=' w-full h-full flex flex-col'>
       <div className=' w-full h-[40%] bg-cover rounded-b-none rounded-md relative flex justify-center items-end' style={{ backgroundImage: `url(${bg})` }} >
-        <div className=' w-40 h-40 rounded-full border-2 border-gray-300 absolute bottom-[-60px] '>
+        <div className=' w-40 h-40 rounded-full border-2 border-gray-300 absolute bottom-[-60px] trans scaleHover'>
           <img src={myimage} alt="sdds" className=' w-full h-full rounded-full' />
         </div>
       </div> {/* top div , backgroung image */}
@@ -22,8 +23,8 @@ function MainInfo() {
           </div>
         </div> {/* secction info */}
         <div className=' w-full h-[15%]'>
-          <button className=' w-[50%] h-full border-dotted border rounded-bl-lg border-gray-500 hover:bg-slate-700 font-semibold text-xl'>DOWNLOAD CV</button>
-          <button className=' w-[50%] h-full border-dotted border-l-0 border rounded-br-lg border-gray-500 hover:bg-slate-700 font-semibold text-xl '>CONTACT ME</button>
+          <a href={EslamResume} download><button className=' w-[50%] h-full border-dotted border rounded-bl-lg border-gray-500 hover:bg-slate-700 font-semibold text-xl'>DOWNLOAD CV</button></a>
+          <a href=''><button className=' w-[50%] h-full border-dotted border-l-0 border rounded-br-lg border-gray-500 hover:bg-slate-700 font-semibold text-xl '>CONTACT ME</button></a>
         </div> {/* buttons */}
       </div> {/* buttom div for all */}
       {/* MainInfo div */}

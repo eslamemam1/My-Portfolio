@@ -15,7 +15,7 @@ function SideBar() {
         <p className=' text-[13px] font-semibold'>PROJECTS</p>
       </div>
       <div className='w-full h-[25%] '>
-        <i className="fas fa-envelope text-3xl  OrangeHover"></i>
+        <a href='#CONTACT'><i className="fas fa-envelope text-3xl  OrangeHover"></i></a>
         <p className=' text-[13px] font-semibold'>CONTACT</p>
       </div>
     </div>

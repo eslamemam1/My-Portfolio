@@ -21,11 +21,11 @@ function AllInfo() {
         <div className='w-full'>
           <div className=' pt-5'>
             <div className=' w-full flex flex-col justify-between'>
-              <span className='w-[100%] h-10'><i className="fas fa-calendar-week w-5 text-[#ff9800] text-xl mr-3 "></i>10 April 1997 </span>
-              <span className='w-[100%] h-10'><i className="fas fa-phone w-5 text-[#ff9800] text-xl mr-3 "></i>01090145286 </span>
-              <span className='w-[100%] h-10'><i className="fas fa-envelope w-5 text-[#ff9800] text-xl mr-3 "></i>eslamemam65@gmail.com</span>
-              <span className='w-[100%] h-10'><i className="fas fa-map-marker-alt w-5 text-[#ff9800] text-xl mr-3 "></i>6TH Of October,Giza,Egypt</span>
-              <span className='w-[100%] h-10'><i class="fas fa-university w-5 text-[#ff9800] text-xl mr-3 "></i>Bachelor of Computer Science | (2015 – 2019)</span>
+              <p className='w-[100%] '><i className="fas fa-calendar-week w-5 text-[#ff9800] text-xl mr-3 "></i>10 April 1997 </p>
+              <p className='w-[100%] pt-2'><i className="fas fa-phone w-5 text-[#ff9800] text-xl mr-3 "></i>01090145286 </p>
+              <p className='w-[100%] pt-2'><i className="fas fa-envelope w-5 text-[#ff9800] text-xl mr-3 "></i>eslamemam65@gmail.com</p>
+              <p className='w-[100%] pt-2'><i className="fas fa-map-marker-alt w-5 text-[#ff9800] text-xl mr-3 "></i>6TH Of October,Giza,Egypt</p>
+              <p className='w-[100%] pt-2'><i class="fas fa-university w-5 text-[#ff9800] text-xl mr-3 "></i>Bachelor of Computer Science | (2015 – 2019)</p>
             </div>
           </div>
         </div>
@@ -213,12 +213,12 @@ function AllInfo() {
         <div className=' w-full h-[50px] border-b border-gray-500 text-4xl mt-2  '>
           <h2 className=' pb-3'><span className='text-[#ff9800]'>Contact</span> Form</h2>
         </div> {/** header */}
-        <div className=' w-full h-[500px]'>
+        <div className=' w-full h-[400px]' id='CONTACT'>
           <form className=' flex'>
             <input className='focus:outline-none hover:border-b hover:border-[#ff9800] w-[48%] mr-[2%] h-20 bg-[#34343f] border-b border-gray-500' type="text" placeholder='Enter Your Full Name' />
             <input className='focus:outline-none hover:border-b hover:border-[#ff9800] w-[48%] ml-[2%] h-20 bg-[#34343f] border-b border-gray-500' type="email" placeholder='Enter Your Email Address' />
           </form>
-          <textarea className='focus:outline-none hover:border-b hover:border-[#ff9800] w-full h-36 mt-5 bg-[#34343f] border-gray-500' rows="4" cols="50"></textarea>
+          <textarea className='focus:outline-none hover:border-b hover:border-[#ff9800] w-full h-36 mt-5 border-b bg-[#34343f] border-gray-500' rows="4" cols="50"></textarea>
           <button className=' mt-5 w-40 h-16 border-dotted border rounded border-gray-500 hover:bg-slate-700 font-semibold text-xl ' >SEND MESSAGE</button>
         </div>
       </div> {/** Contact Form */}
