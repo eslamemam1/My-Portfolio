@@ -1,7 +1,7 @@
 import React from 'react'
-import myimage from "./MyPic.jpg"
-import bg from "./bg.jpg"
-import EslamResume from "./EslamEmamResume.pdf"
+import myimage from "./pic/MyPic.jpg"
+import bg from "./pic/bg.jpg"
+import EslamResume from "./pic/Eslam-Resume.pdf"
 function MainInfo() {
   return (
     <div className=' w-full h-full flex flex-col'>
@@ -24,7 +24,7 @@ function MainInfo() {
         </div> {/* secction info */}
         <div className=' w-full h-[15%]'>
           <a href={EslamResume} download><button className=' w-[50%] h-full border-dotted border rounded-bl-lg border-gray-500 hover:bg-slate-700 font-semibold text-xl'>DOWNLOAD CV</button></a>
-          <a href=''><button className=' w-[50%] h-full border-dotted border-l-0 border rounded-br-lg border-gray-500 hover:bg-slate-700 font-semibold text-xl '>CONTACT ME</button></a>
+          <a href='#CONTACT'><button className=' w-[50%] h-full border-dotted border-l-0 border rounded-br-lg border-gray-500 hover:bg-slate-700 font-semibold text-xl '>CONTACT ME</button></a>
         </div> {/* buttons */}
       </div> {/* buttom div for all */}
       {/* MainInfo div */}
