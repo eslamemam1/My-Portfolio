@@ -60,7 +60,7 @@ function MainComponantProjects() {
           <div className='flex flex-col xl:flex-row pb-3'>
             <div className=' relative w-[100%] pb-2 pt-1 imgContener'>
             <img className=' rounded mt-1 w-[90%] m-auto hoverScall trans img' src={Crud} alt="project1"></img>
-              <a href='https://eslamemam1.github.io/Flip-Card/' target="_blank" rel="noreferrer">
+              <a href='https://github.com/eslamemam1/Crud-React-App' target="_blank" rel="noreferrer">
                 <div class=" w-full absolute top-[50%] left-[50%] text-4xl translate-x-[-50%] translate-y-[-50%] text-center searchIcon"><i class="fas fa-search search text-white"></i>
                   <p className=' text-xl text-white font-semibold'>Crud App</p>
                   <p className=' text-base text-white font-semibold'>Responsive Design</p>
@@ -70,7 +70,7 @@ function MainComponantProjects() {
             </div>  {/** lift side */}
             <div className=' relative w-[100%] pb-2 pt-1 imgContener'>
             <img className=' rounded mt-1 w-[90%] m-auto hoverScall trans img' src={Quiz} alt="project1"></img>
-              <a href='https://eslamemam1.github.io/The-Holy-Quran-/' target="_blank" rel="noreferrer">
+              <a href='https://github.com/eslamemam1/ng-task' target="_blank" rel="noreferrer">
                 <div class=" w-full absolute top-[50%] left-[50%] text-4xl translate-x-[-50%] translate-y-[-50%] text-center searchIcon"><i class="fas fa-search search text-white"></i>
                   <p className=' text-xl text-white font-semibold'>Quiz App</p>
                   <p className=' text-base text-white font-semibold'>Responsive Design</p>
