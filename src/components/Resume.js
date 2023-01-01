@@ -39,13 +39,13 @@ function Resume() {
             <div className=' pt-5 w-[45%] border-b border-gray-600'>
               <span className='h-10  w-full text-2xl border-gray-600 border-b pb-2'>
                 <i class="fas fa-briefcase w-5 text-[#ff9800] text-3xl mr-5"></i>
-                FREELANCER
+                Present Work
               </span>
               <div className='mt-5 font-semibold'>
                 <ul>
-                  <li>Google Ads Rater<br/> <span className=' text-sm text-gray-400'></span> </li>
-                  <li className=' text-sm text-gray-400'>Part-time remote job</li>
-                  <li className=' text-sm text-gray-400'>Evaluate Google ads and improve the quality of search engines optimization Google .</li>
+                  <li>React Developer<br/> <span className=' text-sm text-gray-400'></span> </li>
+                  <li className=' text-sm text-gray-400'>Exios | 6th of October</li>
+                  <li className=' text-sm text-gray-400'>Part-time job .</li>
                 </ul>
               </div>
             </div> {/** FREELANCER section */}

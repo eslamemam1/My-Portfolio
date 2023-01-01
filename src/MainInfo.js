@@ -18,7 +18,7 @@ function MainInfo() {
             <div className='text-2xl'>
               <a href="https://www.linkedin.com/in/eslam-emam-12695815b" target="_blank" rel="noreferrer"><i className="fab fa-linkedin OrangeHover"></i></a>
               <a href='https://github.com/eslamemam1' target="_blank" rel="noreferrer"><i className="fab fa-github pr-3 pl-3 OrangeHover"></i></a>
-              <a href='https://www.facebook.com/Eslam.Emam.Abdelmonam' target="_blank" rel="noreferrer"><i className="fas fa-envelope OrangeHover"></i></a>
+              <a href='https://www.facebook.com/Eslam.Emam.Abdelmonam' target="_blank" rel="noreferrer"><i className="fab fa-facebook-square OrangeHover"></i></a>
             </div> {/* icon */}
           </div>
         </div> {/* secction info */}

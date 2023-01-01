@@ -2,17 +2,18 @@ import React, { useEffect, useState } from 'react'
 import bg from "../pic/bg.jpg"
 import EslamResume from "../pic/Eslam-Resume.pdf"
 import myimage from "../pic/MyPic.jpg"
+import logo from "../pic/logo.png"
 function FirstPage() {
     const [togol, setTogol] = useState(false);
     useEffect(() => {
         console.log(togol);
     }, [togol]);
   return (
-            <div className=' w-full h-screen  flex flex-col '>
+        <div className=' w-full h-screen  flex flex-col '>
           <div className=' w-full h-[40%] bg-cover rounded-b-none rounded-md relative flex justify-center items-end' style={{ backgroundImage: `url(${bg})` }} >
-            <div className=' w-full h-[50px] bg-[#9696968e] top-0 rounded-t fixed z-10'>
-              <div className='flex w-[90%] h-full m-auto '>
-                <div className=' h-full w-[50%] leading-10'><h2 className=' font-bold sm:text-xl leading-[50px] sm:leading-[50px] text-white'>My Portfolio</h2></div> {/** logo */}
+                <div className=' w-full h-[50px] bg-[#646464d3] top-0 rounded-t fixed z-10'>
+                  <div className='flex w-[90%] h-full m-auto '>
+                <div className=' h-full w-[50%] leading-10'><img src={ logo } alt="logo" className=' h-[40px] mt-[5px] ' /></div> {/** logo */}
                 <div className=' w-[50%] h-full text-center text-sm font-semibold sm:flex hidden sm:visible'>
                   <div className='w-[25%] h-full '>
                     <a href='#AboutMe2'><p className=' leading-[50px] text-[10px] sm:text-[13px] font-semibold text-white'>ABOUT</p></a>
@@ -34,17 +35,17 @@ function FirstPage() {
               {
                 togol === true &&
                 <div className='w-full h-[100px] text-center relative z-10 sm:hidden visible'>
-                    <div className='w-full h-[25px] border-b-2 '>
-                      <a href='#AboutMe2'><p className=' leading-[25px] bg-[#808080d9] text-[10px] sm:text-[13px] font-semibold text-white'>ABOUT</p></a>
+                    <div className='w-full h-[25px] border-t border-gray-300 '>
+                      <a href='#AboutMe2'><p className=' leading-[25px] bg-[#646464d3] text-[10px] sm:text-[13px] font-semibold text-white'>ABOUT</p></a>
                     </div>
-                    <div className='w-full h-[25px] border-b-2'>
-                      <a href='#Resume2'><p className=' leading-[25px] bg-[#808080d9] text-[10px] sm:text-[13px] font-semibold text-white'>RESUME</p></a>
+                    <div className='w-full h-[25px] border-t border-gray-300'>
+                      <a href='#Resume2'><p className=' leading-[25px] bg-[#646464d3] text-[10px] sm:text-[13px] font-semibold text-white'>RESUME</p></a>
                     </div>
-                    <div className='w-full h-[25px] border-b-2'>
-                      <a href='#PROJECTS2'><p className=' leading-[25px] bg-[#808080d9] text-[10px] sm:text-[13px] font-semibold text-white'>PROJECTS</p></a>
+                    <div className='w-full h-[25px] border-t border-gray-300'>
+                      <a href='#PROJECTS2'><p className=' leading-[25px] bg-[#646464d3] text-[10px] sm:text-[13px] font-semibold text-white'>PROJECTS</p></a>
                     </div>
-                    <div className='w-full h-[25px] border-b-2'>
-                      <a href='#CONTACT2'><p className=' leading-[25px] bg-[#808080d9] text-[10px] sm:text-[13px] font-semibold text-white'>CONTACT</p></a>
+                    <div className='w-full h-[25px] border-t border-gray-300'>
+                      <a href='#CONTACT2'><p className=' leading-[25px] bg-[#646464d3] text-[10px] sm:text-[13px] font-semibold text-white'>CONTACT</p></a>
                     </div>
                 </div>
                }

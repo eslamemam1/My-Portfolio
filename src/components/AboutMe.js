@@ -21,7 +21,7 @@ function AboutMe() {
               <p className='w-[100%] '><i className="fas fa-calendar-week w-5 text-[#ff9800] text-xl mr-3 "></i>10 April 1997 </p>
               <p className='w-[100%] pt-2'><i className="fas fa-phone w-5 text-[#ff9800] text-xl mr-3 "></i>01090145286 </p>
               <p className='w-[100%] pt-2'><i className="fas fa-envelope w-5 text-[#ff9800] text-xl mr-3 "></i>eslamemam65@gmail.com</p>
-              <p className='w-[100%] pt-2'><i className="fas fa-map-marker-alt w-5 text-[#ff9800] text-xl mr-3 "></i>6TH Of October,Giza,Egypt</p>
+              <p className='w-[100%] pt-2'><i className="fas fa-map-marker-alt w-5 text-[#ff9800] text-xl mr-3 "></i>6TH Of October, Giza, Egypt</p>
               <p className='w-[100%] pt-2'><i class="fas fa-university w-5 text-[#ff9800] text-xl mr-3 "></i>Bachelor of Computer Science | (2015 – 2019)</p>
             </div>
           </div>
